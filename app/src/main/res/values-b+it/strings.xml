@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Practical</string>
+    <string name="language">Lingua</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Il mio profilo</string>
+    <string name="loading">Caricamento…</string>
+    <string name="accessibility_mode">Modalità accessibilità</string>
+    <string name="logout">Esci</string>
+    <string name="avatar_selected">Avatar selezionato</string>
+    <string name="lang_english">Inglese</string>
+    <string name="lang_french">Francese</string>
+    <string name="lang_spanish">Spagnolo</string>
+    <string name="lang_mandarin">Mandarino</string>
+    <string name="lang_arabic">Arabo</string>
+    <string name="lang_italian">Italiano</string>
+    <string name="selected">selezionato</string>
+
+
+    <!-- Nature Bot -->
+    <string name="ai_nature_friend">Amico della natura AI</string>
+    <string name="ask_a_question">Fai una domanda…</string>
+    <string name="send">Invia</string>
+    <string name="default_prompt">
+        Alcune cose che potresti provare a chiedere…\n\nCome aiutare lambiente\n\nUn fatto divertente sulla natura\n\nCome usare questa app
+    </string>
+    <string name="offline_message">Sei offline.\n\nConnettiti al Wi‑Fi per parlare con me!</string>
+    <string name="please_ask_question">Per favore, fai una domanda.</string>
+    <string name="question_too_short">La tua domanda è troppo breve. Per favore sii più specifico.</string>
+    <string name="question_too_long">La tua domanda è troppo lunga. Per favore limitati a 200 caratteri.</string>
+
+    <!-- Garden -->
+    <string name="garden_title">Il mio giardino</string>
+    <string name="add_plant">Aggiungi</string>
+    <string name="cancel">Annulla</string>
+    <string name="delete_plant">Elimina pianta</string>
+    <string name="add_new_plant">Aggiungi nuova pianta</string>
+    <string name="plant_name">Nome pianta</string>
+    <string name="plant_image">Immagine pianta</string>
+
+    <!-- Feed -->
+    <string name="nature_feed_title">Feed della natura</string>
+    <string name="post_button_text">Pubblica</string>
+    <string name="post_content_placeholder">A cosa stai pensando?</string>
+    <string name="error_offline">Sei offline</string>
+    <string name="error_empty_post">Il post non può essere vuoto</string>
+
+    <!-- Register -->
+    <string name="register">Registrati</string>
+    <string name="username">Nome utente</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Conferma password</string>
+    <string name="no_wifi_message">Nessuna connessione Wi‑Fi. Per favore connettiti a Internet.</string>
+    <string name="fields_required">Tutti i campi sono obbligatori.</string>
+    <string name="password_mismatch">Le password non coincidono.</string>
+    <string name="password_length">La password deve essere di almeno 6 caratteri.</string>
+    <string name="registration_failed">Registrazione fallita: %1$s</string>
+    <string name="login_prompt">Hai già un account? Accedi qui</string>
+
+    <!-- Login -->
+    <string name="login_title">Accesso</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="error_enter_fields">Inserisci email e password.</string>
+    <string name="login_failed">Accesso fallito</string>
+    <string name="login_button">Accedi</string>
+    <string name="login_register_prompt">Non hai un account? Registrati qui</string>
+    //nav bar
+    <string name="nav_feed">Feed</string>
+    <string name="nav_garden">Giardino</string>
+    <string name="nav_bot">Bot Natura</string>
+    <string name="nav_profile">Profilo</string>
+
+</resources>

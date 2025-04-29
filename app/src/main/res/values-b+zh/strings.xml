@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Practical</string>
+
+    <!-- Profile -->
+    <string name="profile_title">我的资料</string>
+    <string name="loading">加载中…</string>
+    <string name="accessibility_mode">无障碍模式</string>
+    <string name="logout">登出</string>
+    <string name="avatar_selected">已选择头像</string>
+    <string name="language">语言</string>
+    <string name="lang_english">英语</string>
+    <string name="lang_french">法语</string>
+    <string name="lang_spanish">西班牙语</string>
+    <string name="lang_mandarin">普通话</string>
+    <string name="lang_arabic">阿拉伯语</string>
+    <string name="lang_italian">意大利语</string>
+    <string name="selected">已选择</string>
+
+
+    <!-- Nature Bot -->
+    <string name="ai_nature_friend">AI自然朋友</string>
+    <string name="ask_a_question">问一个问题…</string>
+    <string name="send">发送</string>
+    <string name="default_prompt">
+        你可以尝试问我以下内容…\n\n如何保护环境\n\n一个有趣的自然小知识\n\n如何使用这个应用
+    </string>
+    <string name="offline_message">你当前处于离线状态。\n\n请连接Wi‑Fi与我交流！</string>
+    <string name="please_ask_question">请提出一个问题。</string>
+    <string name="question_too_short">你的问题太短了。\n请更具体一点。</string>
+    <string name="question_too_long">你的问题太长了。\n请限制在200个字符以内。</string>
+
+    <!-- Garden -->
+    <string name="garden_title">我的花园</string>
+    <string name="add_plant">添加</string>
+    <string name="cancel">取消</string>
+    <string name="delete_plant">删除植物</string>
+    <string name="add_new_plant">添加新植物</string>
+    <string name="plant_name">植物名称</string>
+    <string name="plant_image">植物图片</string>
+
+    <!-- Feed -->
+    <string name="nature_feed_title">自然动态</string>
+    <string name="post_button_text">发布</string>
+    <string name="post_content_placeholder">你在想什么？</string>
+    <string name="error_offline">你当前处于离线状态</string>
+    <string name="error_empty_post">发布内容不能为空</string>
+
+    <!-- Register -->
+    <string name="register">注册</string>
+    <string name="username">用户名</string>
+    <string name="email">电子邮箱</string>
+    <string name="password">密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="no_wifi_message">没有Wi‑Fi连接。请连接到互联网。</string>
+    <string name="fields_required">所有字段均为必填。</string>
+    <string name="password_mismatch">两次输入的密码不一致。</string>
+    <string name="password_length">密码至少需要6个字符。</string>
+    <string name="registration_failed">注册失败：%1$s</string>
+    <string name="login_prompt">已有账号？点此登录</string>
+
+    <!-- Login -->
+    <string name="login_title">登录</string>
+    <string name="email_hint">电子邮箱</string>
+    <string name="password_hint">密码</string>
+    <string name="error_enter_fields">请输入邮箱和密码。</string>
+    <string name="login_failed">登录失败</string>
+    <string name="login_button">登录</string>
+    <string name="login_register_prompt">没有账号？点此注册</string>
+    //nav bar
+    <string name="nav_feed">动态</string>
+    <string name="nav_garden">花园</string>
+    <string name="nav_bot">自然机器人</string>
+    <string name="nav_profile">个人资料</string>
+
+</resources>

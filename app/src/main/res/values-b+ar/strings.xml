@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Practical</string>
+
+    <!-- Profile -->
+    <string name="profile_title">صفحتي</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="accessibility_mode">وضع إمكانية الوصول</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="avatar_selected">الصورة المختارة</string>
+    <string name="language">اللغة</string>
+    <string name="lang_english">الإنجليزية</string>
+    <string name="lang_french">الفرنسية</string>
+    <string name="lang_spanish">الإسبانية</string>
+    <string name="lang_mandarin">الماندرين</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_italian">الإيطالية</string>
+    <string name="selected">تم الاختيار</string>
+
+
+    <!-- Nature Bot -->
+    <string name="ai_nature_friend">صديق الطبيعة الذكي</string>
+    <string name="ask_a_question">اطرح سؤالاً…</string>
+    <string name="send">إرسال</string>
+    <string name="default_prompt">
+        بعض الأسئلة التي يمكنك طرحها…\n\nكيفية حماية البيئة\n\nمعلومة ممتعة عن الطبيعة\n\nكيفية استخدام التطبيق
+    </string>
+    <string name="offline_message">أنت غير متصل.\n\nاتصل بشبكة Wi‑Fi للتحدث معي!</string>
+    <string name="please_ask_question">يرجى طرح سؤال.</string>
+    <string name="question_too_short">سؤالك قصير جداً.\nيرجى أن تكون أكثر تحديداً.</string>
+    <string name="question_too_long">سؤالك طويل جداً.\nيرجى ألا يتجاوز 200 حرف.</string>
+
+    <!-- Garden -->
+    <string name="garden_title">حديقتي</string>
+    <string name="add_plant">إضافة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete_plant">حذف نبتة</string>
+    <string name="add_new_plant">إضافة نبتة جديدة</string>
+    <string name="plant_name">اسم النبتة</string>
+    <string name="plant_image">صورة النبتة</string>
+
+    <!-- Feed -->
+    <string name="nature_feed_title">تغذية الطبيعة</string>
+    <string name="post_button_text">نشر</string>
+    <string name="post_content_placeholder">ما يدور في ذهنك؟</string>
+    <string name="error_offline">أنت غير متصل</string>
+    <string name="error_empty_post">لا يمكن أن تكون المشاركة فارغة</string>
+
+    <!-- Register -->
+    <string name="register">إنشاء حساب</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="no_wifi_message">لا يوجد اتصال بشبكة Wi‑Fi. يرجى الاتصال بالإنترنت.</string>
+    <string name="fields_required">جميع الحقول مطلوبة.</string>
+    <string name="password_mismatch">كلمات المرور غير متطابقة.</string>
+    <string name="password_length">يجب أن تكون كلمة المرور 6 أحرف على الأقل.</string>
+    <string name="registration_failed">فشل التسجيل: %1$s</string>
+    <string name="login_prompt">هل لديك حساب؟ سجّل الدخول هنا</string>
+
+    <!-- Login -->
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="error_enter_fields">يرجى إدخال البريد وكلمة المرور.</string>
+    <string name="login_failed">فشل تسجيل الدخول</string>
+    <string name="login_button">دخول</string>
+    <string name="login_register_prompt">لا تملك حساباً؟ أنشئ حساباً هنا</string>
+    //nav bar
+    <string name="nav_feed">الخلاصة</string>
+    <string name="nav_garden">الحديقة</string>
+    <string name="nav_bot">روبوت الطبيعة</string>
+    <string name="nav_profile">الملف الشخصي</string>
+
+</resources>

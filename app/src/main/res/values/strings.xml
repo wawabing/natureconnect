@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">practice</string>
+    //profile
+    <string name="profile_title">My Profile</string>
+    <string name="loading">Loading…</string>
+    <string name="accessibility_mode">Accessibility Mode</string>
+    <string name="logout">Logout</string>
+    <string name="avatar_selected">Selected Avatar</string>
+    <string name="language">Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_french">French</string>
+    <string name="lang_spanish">Spanish</string>
+    <string name="lang_mandarin">Mandarin</string>
+    <string name="lang_arabic">Arabic</string>
+    <string name="lang_italian">Italian</string>
+    <string name="selected">selected</string>
+    //nature bot
+    <string name="ai_nature_friend">AI Nature Friend</string>
+    <string name="ask_a_question">Ask a question…</string>
+    <string name="send">Send</string>
+    <string name="default_prompt">
+        Some things you could try asking about…
+        \n\nHow to help the environment
+        \n\nA fun nature fact
+        \n\nHow to use this app
+    </string>
+    <string name="offline_message">You are offline.\n\nConnect to wifi to talk to me!</string>
+    <string name="please_ask_question">Please ask a question.</string>
+    <string name="question_too_short">Your question is too short.\nPlease ask something more specific.</string>
+    <string name="question_too_long">Your question is too long.\nPlease limit it to 200 characters.</string>
+    //garden
+    <string name="garden_title">My Garden</string>
+    <string name="add_plant">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_plant">Delete Plant</string>
+    <string name="add_new_plant">Add New Plant</string>
+    <string name="plant_name">Plant Name</string>
+    <string name="plant_image">Plant Image</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="no_wifi" translatable="false">You do not have wifi!</string>
+    //feed
+    <string name="nature_feed_title">Nature Feed</string>
+    <string name="post_button_text">Post</string>
+    <string name="post_content_placeholder">What’s on your mind?</string>
+    <string name="error_offline">You are offline</string>
+    <string name="error_empty_post">Post cannot be empty</string>
+    //register
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="no_wifi_message">No Wi-Fi connection. Please connect to the internet.</string>
+    <string name="fields_required">All fields are required.</string>
+    <string name="password_mismatch">Passwords do not match.</string>
+    <string name="password_length">Password must be at least 6 characters long.</string>
+    <string name="registration_failed">Registration Failed: %1$s</string>
+    <string name="login_prompt">Already have an account? Login here</string>
+    //login
+    <string name="login_title">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="error_enter_fields">Please enter both email and password.</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="login_button">Login</string>
+    <string name="login_register_prompt">Do you not have an account? Register here</string>
+    //nav bar
+    <string name="nav_feed">Feed</string>
+    <string name="nav_garden">Garden</string>
+    <string name="nav_bot">Nature Bot</string>
+    <string name="nav_profile">Profile</string>
+</resources>

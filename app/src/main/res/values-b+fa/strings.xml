@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical</string>
+    <!-- profile -->
+    <string name="profile_title">پروفایل من</string>
+    <string name="loading">در حال بارگذاری…</string>
+    <string name="accessibility_mode">حالت دسترسی</string>
+    <string name="logout">خروج</string>
+    <string name="avatar_selected">آواتار انتخاب شده</string>
+    <string name="language">زبان</string>
+    <string name="lang_english">انگلیسی</string>
+    <string name="lang_french">فرانسوی</string>
+    <string name="lang_spanish">اسپانیایی</string>
+    <string name="lang_mandarin">ماندارین</string>
+    <string name="lang_arabic">عربی</string>
+    <string name="lang_italian">ایتالیایی</string>
+    <string name="selected">انتخاب شده</string>
+
+    <!-- nature bot -->
+    <string name="ai_nature_friend">دوست طبیعت هوشمند</string>
+    <string name="ask_a_question">سؤالی بپرسید…</string>
+    <string name="send">ارسال</string>
+    <string name="default_prompt">
+        چیزهایی که می‌توانید بپرسید…
+        \n\nچگونه به محیط زیست کمک کنیم
+        \n\nیک حقیقت جالب درباره طبیعت
+        \n\nچگونه از این اپ استفاده کنیم
+    </string>
+    <string name="offline_message">شما آفلاین هستید.\n\nبرای صحبت با من به وای‌فای متصل شوید!</string>
+    <string name="please_ask_question">لطفاً یک سؤال بپرسید.</string>
+    <string name="question_too_short">سؤال شما خیلی کوتاه است.\nلطفاً سوال دقیق‌تری بپرسید.</string>
+    <string name="question_too_long">سؤال شما خیلی طولانی است.\nلطفاً آن را به ۲۰۰ نویسه محدود کنید.</string>
+
+    <!-- garden -->
+    <string name="garden_title">باغ من</string>
+    <string name="add_plant">افزودن</string>
+    <string name="cancel">لغو</string>
+    <string name="delete_plant">حذف گیاه</string>
+    <string name="add_new_plant">افزودن گیاه جدید</string>
+    <string name="plant_name">نام گیاه</string>
+    <string name="plant_image">تصویر گیاه</string>
+
+    <!-- feed -->
+    <string name="nature_feed_title">خوراک طبیعت</string>
+    <string name="post_button_text">ارسال</string>
+    <string name="post_content_placeholder">به چه چیزی فکر می‌کنید؟</string>
+    <string name="error_offline">شما آفلاین هستید</string>
+    <string name="error_empty_post">پست نمی‌تواند خالی باشد</string>
+
+    <!-- register -->
+    <string name="register">ثبت‌نام</string>
+    <string name="username">نام کاربری</string>
+    <string name="email">ایمیل</string>
+    <string name="password">رمز عبور</string>
+    <string name="confirm_password">تایید رمز عبور</string>
+    <string name="no_wifi_message">اتصال وای‌فای موجود نیست. لطفاً به اینترنت وصل شوید.</string>
+    <string name="fields_required">همه فیلدها الزامی هستند.</string>
+    <string name="password_mismatch">رمزها یکسان نیستند.</string>
+    <string name="password_length">رمز عبور باید حداقل ۶ نویسه داشته باشد.</string>
+    <string name="registration_failed">ثبت‌نام ناموفق: %1$s</string>
+    <string name="login_prompt">قبلاً ثبت‌نام کرده‌اید؟ اینجا وارد شوید</string>
+
+    <!-- login -->
+    <string name="login_title">ورود</string>
+    <string name="email_hint">ایمیل</string>
+    <string name="password_hint">رمز عبور</string>
+    <string name="error_enter_fields">لطفاً ایمیل و رمز عبور را وارد کنید.</string>
+    <string name="login_failed">ورود ناموفق بود</string>
+    <string name="login_button">ورود</string>
+    <string name="login_register_prompt">حساب ندارید؟ اینجا ثبت‌نام کنید</string>
+
+    <!-- nav bar -->
+    <string name="nav_feed">خوراک</string>
+    <string name="nav_garden">باغ</string>
+    <string name="nav_bot">ربات طبیعت</string>
+    <string name="nav_profile">پروفایل</string>
+</resources>
