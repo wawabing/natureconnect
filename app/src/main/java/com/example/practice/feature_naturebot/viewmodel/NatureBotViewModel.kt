@@ -71,7 +71,12 @@ class NatureBotViewModel : ViewModel() {
                     }
                 } else {
                     val errorBody = response.errorBody()?.string()
-                    factMessage.value = "Error: ${response.code()} ${response.message()} \n$errorBody"
+                    if (response.code() == 401)
+                    {
+                        factMessage.value = "Hello user, you need an API key in order to talk to me!"
+                    } else {
+                        factMessage.value = "Oops, something went wrong! Please try again later"
+                    }
                     Log.e("FunFactViewModel", "Error fetching response: $errorBody")
                 }
             } catch (e: Exception) {
