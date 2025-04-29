@@ -1,0 +1,33 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Allow authenticated users to read/write their own data in the 'users' collection
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Allow authenticated users to read their own plants data and write limited data
+    match /plants/{plantId} {
+      // Allow read access to all authenticated users
+      allow read: if request.auth != null;
+      
+      // Allow create/update of plant only if the authenticated user is the owner and data keys are restricted
+      allow write: if request.auth != null
+      
+      // Allow delete only if the authenticated user is the owner of the plant
+      allow delete: if request.auth != null && request.auth.uid == resource.data.ownerId;
+    }
+
+    // Allow authenticated users to create and read posts
+    match /posts/{postId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Allow public read but authenticated users only can write to the "public_posts" collection
+    match /public_posts/{postId} {
+      allow read;
+      allow write: if request.auth != null;
+    }
+  }
+}
