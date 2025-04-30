@@ -3,10 +3,15 @@ Student Name: Owen Reid
 Student Number: 2201368  
 Submission: CMP309
 
-GITHUB LINK: https://github.com/wawabing/natureconnect
 
-Please note that the github only holds the app files.
-The APK and firebase rules are only supplied in the submitted ZIP file.
+**Please note that the OPENAI API key has been redcated, meaning the naturebot and garden plant feature will not be useable.**
+**Seek information in this document on line 38 for more info.**
+
+
+---
+
+## 🎥 Presentation Repository
+GITHUB LINK: https://github.com/wawabing/natureconnect
 
 ---
 
