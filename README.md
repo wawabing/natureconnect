@@ -5,7 +5,7 @@ Submission: CMP309
 
 
 **Please note that the OPENAI API key has been redcated, meaning the naturebot and garden plant feature will not be useable.**
-**Seek information in this document on line 38 for more info.**
+**Seek information in this document further down for more info on where to place the key.**
 
 
 ---
